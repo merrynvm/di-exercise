@@ -21,7 +21,7 @@ public class MyController {
 
     @GetMapping("/getName")
     public String getName(){
-        System.out.println(getClass().getName() + " called.");
+        //System.out.println(getClass().getName() + " called.");
         return myService.getName();
     }
 }
